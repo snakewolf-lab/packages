@@ -1,0 +1,19 @@
+{
+  "name": "snakewolf/core",
+  "type": "library",
+  "require": {
+    "php": "^8.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Snakewolf\\Core\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "SnakeWolf\\Core\\CoreServiceProvider"
+      ]
+    }
+  }
+}
